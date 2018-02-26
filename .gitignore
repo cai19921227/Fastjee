@@ -16,13 +16,6 @@ target/
 *.ipr
 logs
 
-### NetBeans ###
-nbproject/private/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
 ### webapp ###
 npm-debug.log
 node_modules
@@ -32,5 +25,3 @@ node_modules
 .idea
 .DS_Store
 \.settings/
-build/env.js
-dist/
