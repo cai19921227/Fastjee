@@ -1,0 +1,35 @@
+server:
+  port: 5002
+
+# 网关配置
+zuul:
+  # 公共前缀
+  prefix: /api
+  # 路由转发规则
+  routes:
+    usercenter:
+      path: /uc/**
+      sensitiveHeaders:
+      service-id: fastjee-usercenter
+    authority:
+      path: /auth/**
+      sensitiveHeaders:
+      service-id: fastjee-authority
+    baidu:
+      path: /baidu/**
+      sensitiveHeaders:
+      url: http://baidu.com
+  add-proxy-headers: true
+  ignoredServices: '*'
+
+# 权限认证
+security:
+  sessions: stateless # 无状态
+  oauth2:
+    resource:
+      loadBalanced: true # 负载均衡
+      user-info-uri: http://fastjee-authority/user
+      prefer-token-info: false
+      service-id: fastjee-gateway
+  excludeUrls: # 排除地址
+    - /api/auth/**

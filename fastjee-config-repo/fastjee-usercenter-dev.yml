@@ -1,0 +1,11 @@
+server:
+  port: 5004
+
+## 覆盖application-dev.yml中的默认配置
+#persistence:
+#  mybatis:
+#    jdbc:
+#      driver: com.mysql.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/fastjee-uc?useUnicode=true&characterEncoding=utf8&useSSL=false
+#      username: root
+#      password: root
