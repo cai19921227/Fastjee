@@ -26,6 +26,7 @@
         <result column="User_description" property="description" /><!--//.描述信息-->
         <result column="User_status" property="status" /><!--//.用户状态(0启用,1禁用)-->
         <result column="User_avatar" property="avatar" /><!--//.用户头像-->
+        <result column="User_sectionId" property="sectionId"/><!--//.所属部门-->
         <result column="User_createAt" property="createAt" />
         <result column="User_createDate" property="createDate" />
         <result column="User_modifyAt" property="modifyAt" />
@@ -42,6 +43,7 @@
             User.description AS User_description,
             User.status AS User_status,
             User.avatar AS User_avatar,
+            User.sectionId AS User_sectionId,
             User.createAt AS User_createAt,
             User.createDate AS User_createDate,
             User.modifyAt AS User_modifyAt,

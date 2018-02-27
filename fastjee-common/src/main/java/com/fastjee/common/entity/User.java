@@ -58,6 +58,8 @@ public class User extends MpEntity<User> {
 	private UserStatus status;
     //用户头像
 	private String avatar;
+	//所属部门
+	private Long sectionId;
 
 	// 用户角色,关联查询时使用
 	private transient Set<Role> roleSet = Sets.newHashSet();

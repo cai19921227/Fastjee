@@ -30,8 +30,8 @@ module.exports = merge(webpackBaseConfig, {
         proxy: {
             // 授权服务器
             '/auth/*': {
-                // target: "http://fastjee-gateway.com:5002/api/auth/",
-                target: 'http://fastjee.s1.natapp.cc/api/auth/',
+                target: "http://fastjee-gateway.com:5002/api/auth/",
+                // target: 'http://fastjee.s1.natapp.cc/api/auth/',
                 logLevel: "debug",
                 changeOrigin: true,
                 pathRewrite: {
@@ -40,8 +40,8 @@ module.exports = merge(webpackBaseConfig, {
             },
             // 用户中心服务器
             '/uc/*': {
-                // target: "http://fastjee-gateway.com:5002/api/uc/",
-                target: 'http://fastjee.s1.natapp.cc/api/uc/',
+                target: "http://fastjee-gateway.com:5002/api/uc/",
+                // target: 'http://fastjee.s1.natapp.cc/api/uc/',
                 logLevel: "debug",
                 changeOrigin: true,
                 pathRewrite: {
