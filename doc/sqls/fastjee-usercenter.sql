@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50547
 File Encoding         : 65001
 
-Date: 2018-02-27 03:01:26
+Date: 2018-02-27 08:57:57
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -166,6 +166,7 @@ CREATE TABLE `tb_user` (
   `description` varchar(255) DEFAULT NULL COMMENT '描述信息',
   `status` varchar(255) DEFAULT NULL COMMENT '用户状态(0启用,1禁用)',
   `avatar` varchar(255) DEFAULT NULL COMMENT '用户头像',
+  `sectionId` bigint(20) DEFAULT NULL COMMENT '所属部门',
   `createAt` varchar(255) DEFAULT NULL,
   `createDate` datetime DEFAULT NULL,
   `modifyAt` varchar(255) DEFAULT NULL,
@@ -176,7 +177,7 @@ CREATE TABLE `tb_user` (
 -- ----------------------------
 -- Records of tb_user
 -- ----------------------------
-INSERT INTO `tb_user` VALUES ('1', '超级管理员11111111', 'wenzewoo@gmail.com', 'admin', '$2a$10$oLOvc8f3xkroZn/hOc9rmev7P4Su7FDdgElVdJkyMTfX43bi4TJNy', null, '0', 'http://tva4.sinaimg.cn/crop.0.0.1080.1080.180/80637f49jw8fd5zay70epj20u00u00vw.jpg', null, null, '1:admin', '2018-02-26 05:13:48');
+INSERT INTO `tb_user` VALUES ('1', '超级管理员11111111', 'wenzewoo@gmail.com', 'admin', '$2a$10$oLOvc8f3xkroZn/hOc9rmev7P4Su7FDdgElVdJkyMTfX43bi4TJNy', null, '0', 'http://tva4.sinaimg.cn/crop.0.0.1080.1080.180/80637f49jw8fd5zay70epj20u00u00vw.jpg', '1', null, null, '1:admin', '2018-02-26 05:13:48');
 
 -- ----------------------------
 -- Table structure for tb_user_role
