@@ -1,0 +1,5 @@
+2018-02-27 06:58:20.835 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-02-27 06:58:21.113 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-02-27 06:58:23.594 [main] WARN  org.springframework.cloud.starter.eureka.EurekaStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-02-27 06:58:23.843 [main] WARN  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with key 'routesEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-02-27 06:58:23.856 [main] WARN  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with key 'filtersEndpoint' has been registered as an MBean but has no exposed attributes or operations

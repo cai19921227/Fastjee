@@ -1,0 +1,12 @@
+Fastjee:
+  ├─fastjee-authority (授权中心:5005)
+  ├─fastjee-common    (通用模块)
+  ├─fastjee-config    (配置中心:5001)
+  ├─fastjee-config-repo   (配置中心指向的git仓库)
+  ├─fastjee-gateway   (对外暴露的API服务网关:5002)
+  ├─fastjee-persistence (持久化工具)
+  │  ├─fastjee-db-mybatis (Mybatis-Plus集成实现)
+  │  └─fastjee-nosql-redis  (Redis集成实现)
+  ├─fastjee-registration  (Eureka服务注册中心:5000)
+  ├─fastjee-usercenter  (用户中心微服务:5004)
+  └─fastjee-webui (基于vue的前端实现, 使用iview-admin脚手架:8080)

@@ -1,0 +1,7 @@
+2018-02-27 06:57:49.428 [main] DEBUG com.fastjee.authority.config.AuthorizationServerConfig - AuthorizationServerEndpointsConfigurer is complete.
+2018-02-27 06:57:49.549 [main] DEBUG com.fastjee.authority.config.AuthorizationServerConfig - ClientDetailsServiceConfigurer is complete.
+2018-02-27 06:57:50.668 [main] DEBUG com.fastjee.authority.config.AuthorizationServerConfig - AuthorizationServerSecurityConfigurer is complete.
+2018-02-27 07:03:19.943 [http-nio-5005-exec-1] DEBUG com.fastjee.authority.service.CustomUserDetails - buildAuthority:[ROLE_USER, ROLE_ADMIN]
+2018-02-27 07:03:22.510 [http-nio-5005-exec-2] DEBUG com.fastjee.authority.service.CustomUserDetails - buildAuthority:[ROLE_USER, ROLE_ADMIN]
+2018-02-27 08:34:43.137 [http-nio-5005-exec-2] DEBUG com.fastjee.authority.service.CustomUserDetails - buildAuthority:[ROLE_ADMIN, ROLE_USER]
+2018-02-27 08:42:17.399 [http-nio-5005-exec-3] DEBUG com.fastjee.authority.service.CustomUserDetails - buildAuthority:[ROLE_USER, ROLE_ADMIN]

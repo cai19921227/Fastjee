@@ -51,8 +51,7 @@
                         <Button type="success" icon="plus-circled" size="small">创建用户</Button>
                         <Button type="ghost" icon="social-buffer" size="small">为选中用户分配角色</Button>
                     </div>
-                    <Table  show-header="false"
-                            border="false"
+                    <Table border="false"
                             :data="tableData1"
                             :columns="tableColumns1"
                             stripe />
