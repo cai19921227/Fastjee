@@ -1,3 +1,0 @@
-2018-02-27 06:54:52.729 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2018-02-27 06:54:52.733 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2018-02-27 06:54:54.323 [main] WARN  org.springframework.cloud.starter.eureka.EurekaStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
