@@ -62,14 +62,17 @@
     127.0.0.1       fastjee-usercenter.com
     
 **拉取项目：**
+
 先fork项目到你的账户，再拉取代码到本地:
 
     git clone https://gitee.com/{{yourUsername}}/Fastjee.git
     
 
 **导入项目、修改配置：**
+
 1.导入数据库脚本：
-/Fastjee/doc/sqls/***.sql (请根据文件名实现创建好数据库, 编码为UTF-8)
+
+/Fastjee/doc/sqls/***.sql (请根据文件名事先创建好数据库, 编码为UTF-8)
 
 2.通过idea导入Fastjee项目 （使用Maven的方式导入），等待项目building完毕后，修改相关配置：
 
@@ -92,6 +95,7 @@
 提交相关的修改到github。
 
 3.关于vue的API访问跨域代理（可使用默认配置）
+
 详见： Fastjee/fastjee-webui/build/webpack.dev.config.js
 
     //设置跨域代理
@@ -127,6 +131,7 @@
 
 
 **启动运行：**
+
 先启动后端服务，按顺序依次启动以下服务：
 
     1. RegistrationApplication
@@ -136,6 +141,7 @@
     5. GatewayApplication
     
 再启动前端项目：
+
 打开idea自带的终端命令行工具, 依次执行以下命令：
 
     cd fastjee-webui
