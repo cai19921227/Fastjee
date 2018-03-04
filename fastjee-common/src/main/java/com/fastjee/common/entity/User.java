@@ -15,6 +15,7 @@
 
 package com.fastjee.common.entity;
 
+import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
@@ -59,6 +60,7 @@ public class User extends MpEntity<User> {
     //用户头像
 	private String avatar;
 	//所属部门
+	@TableField("sectionId")
 	private Long sectionId;
 
 	// 用户角色,关联查询时使用
