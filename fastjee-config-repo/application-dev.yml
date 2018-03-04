@@ -30,11 +30,11 @@ persistence:
       #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
       fieldStrategy: 2
       #驼峰下划线转换
-      dbColumnUnderline: false
+      dbColumnUnderline: true
       #刷新mapper 调试神器
       isRefresh: true
       #数据库大写下划线转换
-      isCapitalMode: false
+      isCapitalMode: true
       #逻辑删除配置
       logicDeleteValue: 0
       logicNotDeleteValue: 1
