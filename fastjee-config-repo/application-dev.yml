@@ -34,7 +34,7 @@ persistence:
       #刷新mapper 调试神器
       isRefresh: true
       #数据库大写下划线转换
-      isCapitalMode: true
+      isCapitalMode: false
       #逻辑删除配置
       logicDeleteValue: 0
       logicNotDeleteValue: 1
