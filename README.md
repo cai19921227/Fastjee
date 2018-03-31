@@ -6,7 +6,7 @@
 - 前端：Vue2.x、iView、Webpack...
 
 ## 预览
-![](http://ww1.sinaimg.cn/large/005yUwzsly1foupqs12l8g31260nzkjq.gif)
+![](https://ww1.sinaimg.cn/large/005yUwzsly1foupqs12l8g31260nzkjq.gif)
 
 ## 目录结构
 
