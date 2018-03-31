@@ -6,7 +6,7 @@
 - 前端：Vue2.x、iView、Webpack...
 
 ## 预览
-![](https://ww1.sinaimg.cn/large/005yUwzsly1foupqs12l8g31260nzkjq.gif)
+![](https://raw.githubusercontent.com/wuwz/Fastjee/master/doc/fastjee.gif)
 
 ## 目录结构
 
